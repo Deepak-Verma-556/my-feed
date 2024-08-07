@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* ==================================== cols =============================== */
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*  ================================ aligns justify ==================================== */
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* ======================================== gap ========================================= */
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+/* ======================================width height ================================================ */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-430 {
+    height: 430px;
+}
+
+
+.max-width-476 {
+    max-width: 476px;
+}
+
+.max-width-338 {
+    max-width: 338px;
+}
+
+.max-width-708 {
+    max-width: 708px;
+}
+
+.max-width-765 {
+    max-width: 765px;
+}
+
+
+.min-height-100 {
+    min-height: 100vh;
+}
+
+/* ========================================padding=============================================== */
+
+.pd-11-28 {
+    padding: 11px 28px;
+}
+
+.pd-11-15 {
+    padding: 11px 15px;
+}
+
+.pd-14-20 {
+    padding: 14px 20px 20px 20px;
+}
+
+.pd-8-24 {
+    padding: 8px 24px;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+/* ======================================== padding-top ========================================= */
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-140 {
+    padding-top: 140px;
+}
+
+/* ================================================== padding-bottom ================================ */
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+/* ===================================================border============================================= */
+
+.br-grey {
+    border: 1px solid #9CA1BE
+}
+
+.br-radius-35 {
+    border-radius: 35px;
+}
+
+.br-radius-0-20 {
+    border-radius: 0px 20px 20px 20px;
+}
+
+.br-none {
+    border: none;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.br-radius-30 {
+    border-radius: 30px;
+}
+
+.br-radius-23 {
+    border-radius: 23px;
+}
+
+/* ===================================================margins============================================ */
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-80 {
+    margin-right: 80px;
+}
+
+/* ========================================================== */
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.p-fixed{
+    position: fixed;
+    top: 0;
+}
+
+
+/* ===========================================font family============================ */
+
+.poppins {
+    font-family: poppins, sans-serif;
+}
+
+/* =============================================font size============================== */
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-72 {
+    font-size: 72px;
+}
+
+/* ============================================font weight================================ */
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* ============================================font color============================== */
+
+.fc-grey {
+    color: #605e5e;
+}
+
+.fc-white {
+    color: white;
+}
+
+.fc-black {
+    color: black;
+}
+
+.fc-blue {
+    color: #2C49FE;
+}
+
+.fc-skyblue {
+    color: #1A9FFF;
+}
+
+/* ============================================background=================================== */
+
+.bg-blue {
+    background: #2C49FE;
+}
+
+.bg-fadewhite {
+    background: #F1F2F5;
+}
+
+.bg-black {
+    background: black;
+}
+
+/* ==============================================line-height=================================== */
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-21 {
+    line-height: 21px;
+}
+
+.lh-18 {
+    line-height: 18px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #00000033;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.toggle::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: black;
+    top: 0;
+    left: 1px;
+    bottom: 0;
+    transition: all 200ms linear;
+}
+
+.checkbox:checked+.toggle::after {
+    left: 16px;
+    background-color: white;
+}
+
+.checkbox:checked+.toggle {
+    background-color: blue;
+}
+
+.input-border {
+    border: 1px solid #00000033;
+}
+
+.menu a:hover {
+    color: black;
+}
+.d-none {
+    display: none;
+}
+
+.nav-shadow {
+    box-shadow: 0px 4px 35px 0px #00000014;
+}
+
+.bg-wh {
+    background: #FAFAFA;
+    border: 1px solid #0000001A;
+}
+
+@media (min-width:992px) {
+    .col-lg-9 {
+        width: 75%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .d-flex-lg {
+        display: flex;
+    }
+
+    .align-items-center-lg {
+        align-items: center;
+    }
+
+    .justify-between-lg {
+        justify-content: space-between;
+    }
+
+    .flex-direction-column-lg {
+        flex-direction: column;
+    }
+
+    .gap-10-lg {
+        gap: 10px;
+    }
+
+    .w-100-lg {
+        width: 100%;
+    }
+    .d-lg-block{
+        display: block;
+    }
+    .d-lg-inline{
+        display: inline;
+    }
+    .d-lg-none{
+        display: none;
+    }
+
+    
+
+}
+
+@media (max-width:992px) {
+    .f-d-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .f-d-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .f-d-row {
+        flex-direction: row;
+    }
+
+    .pd-30-lg {
+        padding: 30px;
+    }
+
+    .max-width-119 {
+        max-width: 119px;
+    }
+
+    .max-height-129 {
+        max-height: 129px;
+    }
+
+    .border-lg {
+        border: 1px solid #00000033;
+    }
+
+    .f-d-column-lg {
+        flex-direction: column;
+    }
+
+    .ml-lg-10 {
+        margin-left: 10px;
+    }
+
+    .overflow-x-auto {
+        overflow-x: auto;
+    }
+
+    label[for="menuicons"] {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        position: relative;
+    }
+
+    label[for="menuicons"]>span {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        transition: all 200ms linear;
+    }
+
+    ul.menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        transition: all 200ms linear;
+        z-index: 2;
+    }
+
+    input[type="checkbox"]:checked~ul.menu {
+        right: 0;
+        background-color: #a2a4a3;
+    }
+
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:first-child {
+        width: 50%;
+    }
+
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
+        width: 50%;
+    }
+    .btn{
+        padding: 5px 12px;
+        border-radius: 25px;
+        background: #0000001A;
+    }
+    .btn:hover{
+        background: black;
+        color: white;
+    }
+    .d-lg-flex{
+        display: flex;
+    }
+    .gap-lg-10{
+        gap: 10px;
+    }
+    .gap-lg-20{
+        gap: 20px;
+    }
+}
+@media (max-width:400px) {
+    .gap-sm-10{
+        gap: 10;
+    }    
+}
